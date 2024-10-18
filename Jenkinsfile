@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {  
             steps {  
                 // Checkout the source code from the repository  
-                git 'https://github.com/AWS-STUDY-73/AWS-INFRA-DEPL.gi'  
+                git 'https://github.com/AWS-STUDY-73/AWS-INFRA-DEPL.git'  
             }  
         }  
 
