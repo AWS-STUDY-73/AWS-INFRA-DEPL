@@ -1,0 +1,8 @@
+ backend "remote" {
+    hostname     = "app.terraform.io"
+    organization = "akash573"
+
+    workspaces {
+      name = "AWS-INFRA-DEPL"
+    }
+  }
